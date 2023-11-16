@@ -51,8 +51,8 @@
 }
 
 .section1{
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    justify-content: space-around;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -68,6 +68,7 @@
 
 .grids{
     display:flex;
+    justify-content: space-evenly;
     text-align: center;
     background-color: black;
     color: white;
@@ -121,6 +122,7 @@
     grid-template-columns: auto auto;
     text-align: center;
     color: white;
+    height: 50vh;
 }
 
 .about{
